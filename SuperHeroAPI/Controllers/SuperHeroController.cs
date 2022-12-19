@@ -23,6 +23,7 @@ namespace SuperHeroAPI.Controllers
              }
 
          };
+            return Ok(heroes);
         }
     }
 }
