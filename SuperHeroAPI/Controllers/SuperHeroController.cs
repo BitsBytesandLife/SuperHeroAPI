@@ -17,7 +17,23 @@ namespace SuperHeroAPI.Controllers
                 FirstName = "Peter",
                 LastName = "Parker",
                 Place = "New York City"
-             }
+             },
+              new SuperHero
+             {
+                Id = 2,
+                Name = "Iron Man",
+                FirstName = "Tony",
+                LastName = "Stark",
+                Place = "New York City"
+             },
+               new SuperHero
+             {
+                Id = 3,
+                Name = "Deadpool",
+                FirstName = "Wade",
+                LastName = "Wilson",
+                Place = "New York City"
+             },
         };
 
         [HttpGet]
